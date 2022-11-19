@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Farming</title>
+    <link rel="stylesheet" href="/assets/css/contact.css">
+</head>
+
+<body>
+    <header>
+        <div class="main">
+            <div class="nav">
+                <div class="logo">
+                    <a href="home.html">
+                        <h1>E-Farming</h1>
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="/home.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/shop.html">Shop</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/register.html">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="contactForm">
+        <h1>Contact Us</h1>
+        <form action="/assets/php/contact.php" method="post">
+    
+            <input type="text" id="name" name="name" placeholder="Name*">
+            <input type="number" id="phone" name="phone" placeholder="Phone*">
+            <input type="email" id="email" name="email" placeholder="Email*">
+            <input type="text" id="subject" name="subject" placeholder="Subject*">
+            <input type="text" id="message" name="message" placeholder="Message..." style="height:200px"></input>
+    
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+
+</body>
+
+</html>
